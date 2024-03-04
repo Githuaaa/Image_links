@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+    </style>
+    
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Image Links</h1>
+        <p>Explore our collection of images!</p>
+        <!-- Linked image related to technology -->
+        <a href="https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo"><img src="tech.jpg" height="200" width="200" alt="mac with lines of code">code on mac</a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Nature Gallery</h2>
+        <!-- Grid of linked images related to nature -->
+        <div class="gallery-grid">
+            <a href="https://unsplash.com/photos/brown-monkey-on-brown-tree-branch-during-daytime-jrxEEE8Bd50"><img src="nature 1.jpg" height="200" width="200" alt="Monkey on branch">Monkey</a>
+            <a href="https://unsplash.com/photos/waterfalls-at-daytime-zNN6ubHmruI"><img src="nature 2.jpg" height="200" width="200" alt="Waterfall">Waterfall</a>
+            <a href="https://unsplash.com/photos/birds-eye-view-photograph-of-green-mountains-01_igFr7hd4"><img src="nature 3.jpg" height="200" width="200" alt="Green mountains">Green mountains</a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Menu</h2>
+        <!-- List of food items linked to related images -->
+        <ul>
+            <li><a href="https://unsplash.com/photos/three-red-strawberries-kH3Sr9K8EBA"><img src="Food 1.jpg" height="200" width="200" alt="3 strawberries"> 3 strawberries</a></li>
+            <li><a href="https://unsplash.com/photos/baked-pancakes-eeqbbemH9-c"><img src="Food 2.jpg" height="200" width="200" alt="Baked pancakes"> Baked pancakes</a></li>
+            <li><a href="https://unsplash.com/photos/baked-breads-y84t5dibmDg"><img src="Food 3.jpg" height="200" width="200" alt="Baked breads"> Baked breads</a></li>
+            <!-- Add more food items as needed -->
+        </ul>
+    </section>
+
+</body>
+</html>
